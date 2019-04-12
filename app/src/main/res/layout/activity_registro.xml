@@ -61,7 +61,7 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/apellidos"
         android:layout_width="305dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -79,7 +79,7 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/email"
         android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/apellidos"
         tools:ignore="Autofill"/>
 
     <CheckBox
@@ -109,7 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -124,5 +124,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 </android.support.constraint.ConstraintLayout>

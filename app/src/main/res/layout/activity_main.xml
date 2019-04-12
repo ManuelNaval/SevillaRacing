@@ -62,7 +62,7 @@
         android:radius="15dp"
         android:text="@string/sevracing"
         android:textAllCaps="true"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/background_light"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
