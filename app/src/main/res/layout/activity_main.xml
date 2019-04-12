@@ -40,7 +40,7 @@
         android:layout_height="785dp"
         android:background="@drawable/rounded_corners"
         android:paddingLeft="40sp"
-        android:paddingTop="255sp"
+        android:paddingTop="350sp"
         android:paddingRight="40sp"
         android:text="@string/bienvenida"
         android:textColor="#FFFFFF"
