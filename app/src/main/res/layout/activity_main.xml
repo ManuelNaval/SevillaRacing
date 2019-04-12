@@ -38,7 +38,7 @@
         android:id="@+id/textView2"
         android:layout_width="360dp"
         android:layout_height="209dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="264dp"
         android:background="@drawable/rounded_corners"
         android:text="@string/bienvenida"
         android:textColor="#FFFFFF"
@@ -62,10 +62,11 @@
         android:radius="15dp"
         android:text="@string/sevracing"
         android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
