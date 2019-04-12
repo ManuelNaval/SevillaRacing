@@ -30,6 +30,23 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    protected void onResume(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        vv = (VideoView) findViewById(R.id.videoView);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.videobg);
+        vv.setVideoURI(uri);
+        vv.start();
+
+        vv.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaPlayer.setLooping(true);
+            }
+        });
+    }
+
     public void Registrar(View view) {
         Intent i = new Intent(this, Registro.class);
         startActivity(i);
