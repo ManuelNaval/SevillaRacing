@@ -5,4 +5,10 @@
     Dotado con una recta de 930 metros y 12 curvas lo convierten en una fantástica opción para sacar el máximo rendimiento a estas máquinas
     de alto rendimiento, si quieres venir a probarlas regístrate ya en el botón que aparece abajo.</string>
     <string name="sevracing">Sevilla Racing</string>
+    <string name="dpersonales">Datos Personales</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="email">E-mail</string>
+    <string name="politica">He leído y acepto la política de privacidad.</string>
+    <string name="noticias">Deseo recibir notificaciones de ofertas y noticias acerca de Sevilla Racing</string>
 </resources>
